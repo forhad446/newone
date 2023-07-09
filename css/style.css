@@ -1,0 +1,227 @@
+* {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    color: #005FAC;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+}
+
+header {
+    background: url('../images/banner/banner3.png'), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.header-container {
+    margin-right: 230px;
+    width: 500px;
+    text-align: right;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.header-description {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* banner container style  */
+#banner {
+    margin: 100px 0;
+}
+
+.banner-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 70%;
+    min-height: fit-content;
+    margin: auto;
+}
+
+.banner-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    margin-bottom: 20px;
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.checklist > li{
+    display: flex ;
+    align-items: center ;
+    min-height: 24px ;
+}
+
+/* myplan container style here  */
+.myplan-container {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.myplan-box {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myplan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.box-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.box-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* call now style here  */
+#call-now {
+    min-height: 300px;
+    margin: 0 200px 130px;
+    border-radius: 8px;
+    background: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    /* background-image: url('../images/watch.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.callnow-container {
+    text-align: left;
+    padding-top: 60px;
+    margin-left: 60px;
+
+}
+
+.call-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Footer container section style */
+footer {
+    background-color: #151414;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 550px;
+}
+
+.future-section {
+    width: 30%;
+    list-style-type: none;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.contact {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social {
+    margin-top: 32px;
+}
+
+.social-icon {
+    margin-right: 10px;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+.sub-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.subscribe-section input[type="email"]{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    background: #151414;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px ;
+}
+.sub-btn{
+    background: #005FAC;
+    color: #FFF;
+}
